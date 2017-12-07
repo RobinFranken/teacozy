@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0px;
 }
 
 /* Header section */
@@ -19,11 +20,10 @@ body {
   background-color: black;
   justify-content: space-between;
   align-items: center;
-  z-index: 5;
 }
 
 .logo img {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 10px;
   height: 50px;
 }
@@ -114,11 +114,13 @@ nav span a {
 .locationsitems .locitems {
   height: 300px;
   width: 300px;
-}
-
-.locitems {
   background-color: black;
   margin: 0px 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
 }
 
 /* Footer section */
@@ -126,7 +128,6 @@ nav span a {
 .info {
   height: 200px;
 }
-
 
 .copyright {
   padding-top: 20px;
